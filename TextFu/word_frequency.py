@@ -56,6 +56,7 @@ class fileReader:
 
 if __name__ == "__main__":
 	myFile = fileReader()
+	#myFile.feedFile('wolf_of_wall_street.srt')
 	myFile.feedFile('clock.sub')
 	print 'Wordlist created of %d words' % myFile.count()
 	while True:
